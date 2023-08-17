@@ -1,0 +1,7 @@
+Sir Tommorow I am having 2 exams so I couldn't complete the code but I will try to xplain the logic 
+We will create two heaps with size and trigger time as priority lets say size_heap and time_heap
+And to impliment this firstly after firing the one with less size , i.e, by del_min() in the size_heap
+we will get the time rquired for that to transfer and now by using min() operation in the heap B we will get the node with least trigger time 
+and if both the nodes are same then there is only one package in air so this task can be completed
+And if they are not same then we will be traversing along the heap like a traversal we have done in binary trees and 
+we we will delete all the nodes which have trigger time less than trigger_time + size/1000 of the min element in the time_heap.
